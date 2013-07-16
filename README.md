@@ -6,6 +6,11 @@ Mocha reporter for TBPL (tinderboxpushlog)
 [![Build
 Status](https://travis-ci.org/mozilla-b2g/mocha-tbpl-reporter.png?branch=master)](https://travis-ci.org/mozilla-b2g/mocha-tbpl-reporter)
 
+## Usage
+
+You can use the mocha tbpl reporter to report your mocha test results!
+To do so, give mocha the `--reporter mocha-tbpl-reporter` option.
+
 ## License
 
 Copyright (c) 2013 Mozilla Foundation
