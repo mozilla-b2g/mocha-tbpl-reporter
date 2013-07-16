@@ -3,6 +3,9 @@
 
 Mocha reporter for TBPL (tinderboxpushlog)
 
+[![Build
+Status](https://travis-ci.org/mozilla-b2g/mocha-tbpl-reporter.png?branch=master)](https://travis-ci.org/mozilla-b2g/mocha-tbpl-reporter)
+
 ## License
 
 Copyright (c) 2013 Mozilla Foundation
