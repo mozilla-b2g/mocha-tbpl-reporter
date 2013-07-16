@@ -1,17 +1,35 @@
 {
   "name": "mocha-tbpl-reporter",
-  "version": "0.0.3",
-  "description": "Mocha reporter for TBPL (tinderboxpushlog)",
+  "version": "0.0.4",
+
   "author": "Gareth Aye <gaye@mozilla.com>",
+  "description": "Mocha reporter for TBPL (tinderboxpushlog)",
+  "license": "MIT",
+
+  "dependencies": {
+    "mocha": "1.12.0"
+  },
+
+  "devDependencies": {
+    "mocha-tbpl-reporter": "0.0.4",
+    "sinon": "1.7.3"
+  },
+
+  "keywords": [
+    "mocha",
+    "mozilla",
+    "reporter",
+    "tbpl",
+    "tinderbox",
+    "tinderboxpushlog"
+  ],
+
   "repository": {
     "type": "git",
     "url": "https://github.com/mozilla-b2g/mocha-tbpl-reporter.git"
   },
-  "dependencies": {
-    "mocha": "1.12.0"
-  },
-  "devDependencies": {
-    "mocha-tbpl-reporter": "0.0.3",
-    "sinon": "1.7.3"
+
+  "scripts": {
+    "test": "make"
   }
 }
