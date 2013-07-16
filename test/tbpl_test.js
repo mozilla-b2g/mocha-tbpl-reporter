@@ -43,7 +43,7 @@ suite('TBPL', function() {
     var stub = sinon.stub(console, 'log');
     subject.onFail({
       fullTitle: function() {
-        return 'some title'
+        return 'some title';
       }
     });
     console.log.restore();
@@ -58,7 +58,7 @@ suite('TBPL', function() {
     var stub = sinon.stub(console, 'log');
     subject.onPass({
       fullTitle: function() {
-        return 'some title'
+        return 'some title';
       }
     });
     console.log.restore();
@@ -73,7 +73,7 @@ suite('TBPL', function() {
     var stub = sinon.stub(console, 'log');
     subject.onPending({
       fullTitle: function() {
-        return 'some title'
+        return 'some title';
       }
     });
     console.log.restore();
@@ -87,7 +87,7 @@ suite('TBPL', function() {
     var stub = sinon.stub(console, 'log');
     subject.onTest({
       fullTitle: function() {
-        return 'some title'
+        return 'some title';
       }
     });
     console.log.restore();
@@ -100,7 +100,7 @@ suite('TBPL', function() {
     var stub = sinon.stub(console, 'log');
     subject.onTestEnd({
       fullTitle: function() {
-        return 'some title'
+        return 'some title';
       }
     });
     console.log.restore();
@@ -112,7 +112,7 @@ suite('TBPL', function() {
   test('#getTitle', function() {
     var result = subject.getTitle({
       fullTitle: function() {
-        return 'some title TEST-END'
+        return 'some title TEST-END';
       }
     });
 

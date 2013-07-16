@@ -1,1 +1,1 @@
---colors --recursive --reporter mocha-tbpl-reporter --ui tdd
+--colors --recursive --reporter spec --ui tdd
