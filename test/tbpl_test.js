@@ -33,9 +33,9 @@ suite('TBPL', function() {
     console.log.restore();
 
     assert.ok(stub.calledWith('*~*~* Results *~*~*'));
-    assert.ok(stub.calledWith('%d passing', 0));
-    assert.ok(stub.calledWith('%d failing', 0));
-    assert.ok(stub.calledWith('%d pending', 0));
+    assert.ok(stub.calledWith('passed: %d', 0));
+    assert.ok(stub.calledWith('failed: %d', 0));
+    assert.ok(stub.calledWith('todo: %d', 0));
   });
 
   test('#onFail', function() {
