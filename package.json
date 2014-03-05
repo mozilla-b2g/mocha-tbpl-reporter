@@ -1,6 +1,6 @@
 {
   "name": "mocha-tbpl-reporter",
-  "version": "0.0.6",
+  "version": "0.0.7",
 
   "author": "Gareth Aye <gaye@mozilla.com>",
   "description": "Mocha reporter for TBPL (tinderboxpushlog)",
