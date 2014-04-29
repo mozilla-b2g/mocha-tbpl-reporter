@@ -10,7 +10,7 @@
   },
 
   "peerDependencies": {
-    "mocha": ">=1.18.2"
+    "mocha-gaia": "1.18.x"
   },
 
   "devDependencies": {
