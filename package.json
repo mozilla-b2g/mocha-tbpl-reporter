@@ -1,19 +1,16 @@
 {
   "name": "mocha-tbpl-reporter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "The Gaia Team <dev-gaia@lists.mozilla.org>",
   "description": "Mocha reporter for TBPL (tinderboxpushlog)",
   "license": "MIT",
 
-  "dependencies": {
-    "mocha": "git://github.com/visionmedia/mocha.git#64396afeefe0927e2ba4bf588642372421b81ed5"
-  },
-
   "peerDependencies": {
-    "mocha-gaia": "1.18.x"
+    "mocha": "1.18.x"
   },
 
   "devDependencies": {
+    "mocha": "1.18.x",
     "sinon": "1.7.3"
   },
 
