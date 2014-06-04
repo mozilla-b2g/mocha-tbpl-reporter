@@ -6,7 +6,7 @@
   "license": "MIT",
 
   "peerDependencies": {
-    "mocha": "1.18.x"
+    "mocha": "1.x"
   },
 
   "devDependencies": {
