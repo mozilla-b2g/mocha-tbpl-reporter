@@ -102,6 +102,27 @@ suite('TBPL', function() {
     assert.ok(log.calledWith('TEST-END | %s', 'some title'));
   });
 
+  test('#getFile - relative', function() {
+    var file = subject.getFile({
+      file: __dirname + '/xfoo'
+    });
+    assert.equal(file, 'test/xfoo');
+  });
+
+  test('#getFile - relative different pwd', function() {
+    var file = subject.getFile({
+      file: 'woot/bar.js'
+    });
+    assert.equal(file, 'woot/bar.js');
+  });
+
+  test('#getFile - absolute', function() {
+    var file = subject.getFile({
+      file: '/magic/foo/bar/file.js'
+    });
+    assert.equal(file, '/magic/foo/bar/file.js');
+  });
+
   test('#getTitle', function() {
     var result = subject.getTitle({
       fullTitle: function() {
