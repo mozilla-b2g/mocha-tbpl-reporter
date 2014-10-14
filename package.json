@@ -10,7 +10,7 @@
   },
 
   "devDependencies": {
-    "mocha": "1.18.x",
+    "mocha": "1.21.x",
     "sinon": "1.7.3"
   },
 
@@ -29,6 +29,7 @@
   },
 
   "scripts": {
-    "test": "make"
+    "test": "make",
+    "examples": "mocha --reporter $PWD $(find examples)"
   }
 }
